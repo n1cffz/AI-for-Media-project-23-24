@@ -16,12 +16,21 @@ The data for training the neural network classifier was collected from online im
 The curated dataset from Pinterest served as the foundation for training the neural network classifier, enabling it to recognize and classify emotional cues present in ocular movements during the subsequent phases of the project.
 
 
-### Preprocessing
-
-
 ### Requirements ( for the image classifier)
 - Python
 TensorFlow
 Keras
 NumPy
-Pandas
+
+### How to run this project.
+The first labelled file within this porject ( '1-Image-classification-dataset.ipynb') does not need to be re-run as the data has been provided in the correct directories. This has been left in this project to show methods of data curation from Pinterest.
+
+The majority of the classification training occurs within the third file ('3-Data-cleaning-and-training.ipynb'). Run the image processing code ( which implements Haar Cascade Classifier + shape_predictor_68) then training as shown. 
+
+### Data sheets
+The following can be found: 
+- 'emotional-class-datasheet.csv'
+- 'facial_landmarks_data.csv'
+
+# Model evaluation
+The test loss and accuracy calculated and a new image file ('new-image.png') has been used to evaluate the classification model so far.
