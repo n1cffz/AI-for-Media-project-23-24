@@ -4,14 +4,11 @@ This repository contains the implementation of an emotion-driven music generatio
 
 
 ### Data collection
-The data for training the neural network classifier was collected from online images sourced from Pinterest. The images were manually curated to represent a diverse range of emotional states and were annotated with labels corresponding to seven different emotional classes. The emotional classes used in the classification include (but are not limited to):
+The data for training the neural network classifier was collected from online images sourced from Pinterest. The images were manually curated to represent a diverse range of emotional states and were annotated with labels corresponding to four different emotional classes. The emotional classes used in the classification include (but are not limited to):
 1. Happy
 2. Sad
 3. Angry
-4. Excited
-5. Calm
-6. Surprised
-7. Neutral
+4. Neutral
 
 The curated dataset from Pinterest served as the foundation for training the neural network classifier, enabling it to recognize and classify emotional cues present in ocular movements during the subsequent phases of the project.
 
